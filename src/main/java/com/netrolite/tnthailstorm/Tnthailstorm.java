@@ -12,7 +12,6 @@ public class TntHailstorm implements ModInitializer {
   @Override
   public void onInitialize() {
     ModItems.registerModItems();
-    TntSpawner tntSpawner = new TntSpawner();
-    tntSpawner.spawnTntOnInterval();
+    TntSpawner.spawnTntOnInterval();
   }
 }
